@@ -1,0 +1,162 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+header {
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  list-style: none;
+  margin-right: 10px;
+}
+#header-img {
+  padding-top: 50px;
+  height: 40px;
+  width: fit-content;
+}
+.icon-img {
+  font-size: 50px;
+  color: white;
+  gap: 30px;
+}
+#icon-things {
+  gap: 30px;
+}
+#subscribe {
+  border: 1px white solid;
+  border-radius: 0.5rem;
+  padding: 10px;
+}
+.center {
+  text-align: center;
+}
+
+#header-font {
+  font-weight: 100;
+  position: relative;
+  bottom: 20px;
+  font-size: 20px;
+}
+#section1 {
+  display: flex;
+}
+#section1Img {
+  height: 400px;
+  width: 600px;
+  padding: 30px;
+}
+#para1 {
+  padding: 30px 0;
+}
+#parahead {
+  color: navy;
+  font-weight: 100;
+  font-size: 22px;
+}
+#paraheading {
+  position: relative;
+  bottom: 20px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+#para1-text {
+  color: lightgray;
+  font-size: 18px;
+  text-align: start;
+  position: relative;
+  bottom: 25px;
+}
+.small-logo-card {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+.small-logo-img {
+  width: 40px;
+  height: 40px;
+}
+.small-logo-card p {
+  margin: 0;
+  padding: 0 10px;
+  font-size: 13px;
+}
+.small-body {
+  color: lightgray;
+  padding-top: 2px;
+}
+#section2 {
+  padding: 40px 20px;
+  border-top: 1px solid lightgray;
+  display: flex;
+  justify-content: space-evenly;
+}
+.section2Box img {
+  width: 300px;
+  height: 200px;
+  padding: 0 10px;
+  border-radius: 5%;
+}
+
+.section2head {
+  color: blue;
+  position: relative;
+  bottom: 10px;
+}
+.section2Box p {
+  padding: 0 10px;
+}
+.section2heading {
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+  bottom: 25px;
+}
+.section2para {
+  position: relative;
+  bottom: 30px;
+  color: lightgray;
+  width: 300px;
+}
+.section2lastbox {
+  position: relative;
+  bottom: 30px;
+}
+.section3Box img {
+  width: 500px;
+  height: 300px;
+  padding: 0 10px;
+  border-radius: 5%;
+}
+#section3 {
+  padding: 40px 90px;
+  border-top: 1px solid lightgray;
+  display: flex;
+  gap: 10px;
+}
+.section3para {
+  position: relative;
+  bottom: 30px;
+  color: lightgray;
+  width: 500px;
+}
+.section3head {
+  color: blue;
+  position: relative;
+  bottom: 10px;
+}
+.section3Box p {
+  padding: 0 10px;
+}
